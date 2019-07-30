@@ -13,6 +13,10 @@
             "name": "epoxa",
             "email": "epoxa@vvproject.ru"
         }
+        {
+            "name": "AlogicProjects",
+            "email": ""
+        }
     ],
     "require": {
         "zendframework/zend-hydrator": "^2.2"
