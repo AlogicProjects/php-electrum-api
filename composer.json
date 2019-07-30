@@ -1,21 +1,25 @@
 {
-    "name": "AlogicProjects/php-electrum-api",
+    "name": "padrio/php-electrum-api",
     "description": "PHP wrapper for Electrum JSONRPC-API",
     "type": "library",
-	"keywords": ["electrum", "bitcoin", "payment", "jsonrpc", "api"],
+    "keywords": ["electrum", "bitcoin", "payment", "jsonrpc", "api"],
     "license": "GPL-3.0-or-later",
     "authors": [
         {
-            "name": "AlogicProjects",
-            "email": ""
+            "name": "Pascal Krason",
+            "email": "p.krason@padr.io"
+        },
+        {
+            "name": "epoxa",
+            "email": "epoxa@vvproject.ru"
         }
     ],
     "require": {
         "zendframework/zend-hydrator": "^2.2"
     },
-	"autoload": {
-		"psr-4": {
-			"Electrum\\": "src"
-		}
+    "autoload": {
+	"psr-4": {
+	    "Electrum\\": "src"
 	}
+    }
 }
